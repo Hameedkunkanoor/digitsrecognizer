@@ -2,7 +2,7 @@ from keras.models import load_model
 from collections import deque
 import numpy as np
 import cv2
-
+#opencv3
 firstmodel = load_model('firstmodel.h5')
 secondmodel = load_model('secondmodel.h5')
 thirdmodel = load_model('thirdmodel.h5')
